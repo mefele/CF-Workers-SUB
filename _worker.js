@@ -20,7 +20,7 @@ https://WARP.fxxk.dedyn.io/auto
 let urls = [];
 let subconverter = "subapi-loadbalancing.pages.dev"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 //let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"; //订阅配置文件
-let subconfig = "https://raw.githubusercontent.com/mefele/tv/main/ACL4SSR_Online_Full3_MultiMode.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/mefele/tv/main/FullMultiMode.ini"; //订阅配置文件
 export default {
 	async fetch (request,env) {
 		const userAgentHeader = request.headers.get('User-Agent');
